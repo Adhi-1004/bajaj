@@ -20,7 +20,7 @@ function App() {
     try {
       const parsedArray = input.split(',').map(item => item.trim()).filter(Boolean);
 
-      const response = await fetch('http://localhost:3000/bfhl', {
+      const response = await fetch('https://bajaj-6h6l.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
